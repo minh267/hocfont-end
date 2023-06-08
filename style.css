@@ -1,0 +1,23 @@
+.btn-top{
+    margin-left: 30%;
+    padding: 10px 30px;
+    border: none;
+    background-color: #8498cb;
+    color: #dce7fb;
+}
+
+h1{
+    margin-left: 10%;
+}
+
+.text{
+    color: #06aef1;
+}
+
+.btn-bottom{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 50px 0 70px ;
+}
