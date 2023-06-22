@@ -1,0 +1,135 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 10px 50px;
+}
+
+.header .nav-logo{
+    display: flex;
+    
+}
+
+.header .nav-logo .logo{
+    background-color: bisque;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header .nav{
+    display: flex;
+}
+
+.header .nav p{
+    padding-left: 20px;
+}
+
+.body-film{
+    padding: 30px 30px;
+    display: flex;
+}
+
+.body-left{
+    width: 50%;
+}
+
+.body-left img{
+    width: 100%;
+    height: 50vh;
+}
+
+.body-film  .control-film{
+    padding: 5px 0;
+}
+
+.body-film  .control-film .share{
+    background-color: hotpink;
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(248, 0, 124) ;
+    border-radius: 5px;
+}
+
+.body-film  .control-film .download{
+    background-color: rgb(251, 233, 116);
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(180, 171, 0) ;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.body-film  .control-film .play{
+    background-color: rgb(20, 243, 255);
+    width: 65%;
+    height: 50px;
+    border: 2px solid rgb(0, 118, 132) ;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+.body-film .body-right{
+    margin-left: 80px;
+    width: 50%;
+}
+
+.body-film .body-right p {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.body-film .body-right .start i{
+    color: yellow;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.body-film .body-right .btn-right button{
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.body-film .body-right .sp-chiu{
+    margin-left: 30px;
+    color: blue;
+}
+
+.body-film .body-right .sp-chiu1{
+    margin-left: 19px;
+    color: blue;
+}
+
+.mota {
+    padding: 0px 30px;
+}
+.mota h2 {
+    margin-bottom: 20px;
+}
+
+.mota p{
+    border: 2px solid black;
+    padding: 15px 5px;
+}
+
+.dienvien{
+    padding: 10px 30px;
+}
+
+.dienvien .actor {
+    display: flex;
+}
+
+.dienvien .actor img{
+    width: 200px;
+     height: 200px;
+    padding-right: 50px;
+}
+
+.dienvien .actor h3{
+    padding-left: 50px;
+    color: yellowgreen;
+}

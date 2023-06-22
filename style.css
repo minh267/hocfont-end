@@ -19,5 +19,249 @@ h1{
     color: #fff;
     padding: 10px;
     border-radius: 10px;
-    
+    border: 2px solid red;   
 }
+
+
+/* buoi 2 */
+.btn1{
+color: #3a408a;
+border-left: 5px dotted #c1c5cf;
+background: #e2e3e5;
+font-size: 16px;
+padding: 5px 20px 5px 20px;
+text-align: left;
+width: 50%;
+height: 50px;
+margin: 10px;
+border-radius: 5px;
+}
+
+.btn2{
+color: #586f59;
+border: 2px dotted #abcfbe ;
+background: #d1e6dd;
+font-size: 16px;
+padding: 5px 20px 5px 20px;
+width: 50%;
+text-align: left;
+height: 50px;
+margin: 10px;
+border-radius: 5px;
+ }
+
+    .btn3{
+ color: #995e5c;
+border: 2px dotted #f5c8cc;
+background: #f7d7da;
+font-size: 16px;
+padding: 5px 20px 5px 20px;
+text-align: left;
+width: 50%;
+height: 50px;
+margin: 10px;
+border-radius: 5px;
+        }
+
+.container  .btn{
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.container .card{
+    overflow: hidden;
+}
+
+.container .card-body{
+    border-radius: 0 0 20px 20px;
+    border: 2px solid grey;
+    border-top: none;
+}
+
+/* Buổi 3 */
+
+.thanh{
+    width: 100%;
+    height: 20px;
+    background-color: #e9ecef;
+    margin: 10px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.thanh2{
+    position: absolute;
+    background-color: #0d6efd;
+    height: 20px;
+    width: 25%;
+}
+
+.thanh3{
+    position: absolute;
+    background-color: #0d6efd;
+    height: 20px;
+    width: 50%;
+}
+
+.thanh4{
+    position: absolute;
+    background-color: #0d6efd;
+    height: 20px;
+    width: 75%;
+}
+
+.thanh5{
+    position: absolute;
+    background-color: #0d6efd;
+    height: 20px;
+    width: 100%;
+}
+
+.bai2{
+    background-color: #d9e8fb;
+    width: 40%;
+    height: 300px;
+    border: 2px solid hsl(215, 51%, 77%);
+    position: relative;
+}
+
+.bai2 .title{
+    padding: 4%;
+    margin: 20px 20%;
+    background-color: #f7cecc;
+    width: 50%;
+    border: 2px solid #d08d8f;
+}
+
+.bai2 .btn1-bai2{
+    margin: 20px 0 20px 20%;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d90073;
+    color: #fff;
+}
+
+
+.bai2 .btn2-bai2{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1ba0e1;
+    color: #fff;
+}
+
+.delete{
+    background-color: #b0e3e6;
+    border: 2px solid #268891;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width: 20%;
+    text-align: center;
+    padding: 15px 5px;
+    display: none;
+}
+
+
+.bai2 .btn1-bai2:hover .delete{
+    display: block;
+    color: #000;
+}
+
+/* Bài 3 */
+.bai3{
+    margin-top: 50px;
+    background-color: #d9e8fb;
+    width: 10%;
+    height: 500px;
+}
+
+.bai3 .btn-bai3{
+    background-color: #fff2cd;
+    color: #000;
+    padding: 5px 20px;
+    border: 2px solid #e7d8a4;
+    width: 80%;
+    margin: 5px 10px;
+    font-size: 15px;
+    position: relative;
+}
+
+.bai3 .dropdown1{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+
+.bai3 .dropdown{
+    top: 0;
+}
+
+.bai3 .dropdown .dropdown-item{
+    padding: 5px 20px;
+}
+
+
+
+/* BTVN */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff2cd;
+    border: 2px solid #62605e;
+    padding: 0 20px;
+}
+
+.header .logo{
+    display: flex;
+}
+
+.header .logo p{
+    padding: 10px 20px;
+    background-color: #cdeb8b;
+    border: 2px solid #62605e;
+   justify-self: start;
+}
+
+.header .header-right{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .header-right p{
+    padding: 10px 20px;
+    background-color: #fecccb;
+    border: 2px solid #62605e;
+}
+
+#home{
+    border-left: none;
+    border-right: none;
+}
+
+#brand{
+    font-weight: 600;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+
+.header .header-right .btn{
+    border: none;
+    background: none;
+    font-size: 20px;
+    padding: 0 30px;
+}
+
+#login{
+    margin: 5px 20px;
+    border: 2px solid #a1c38a;
+    background-color: #d5e8d4;
+}
+
+
+
