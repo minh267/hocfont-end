@@ -153,16 +153,16 @@
 // }
 
 //b11
-// const n = Number(prompt('Nhập n '));
-// const m = Number(prompt('Nhập m '));
-// let ucln = 1;
+const n = Number(prompt('Nhập n '));
+const m = Number(prompt('Nhập m '));
+let ucln = 1;
 
 
-//     for(let i = 1; i <= m && i <= n; i++){
-//         if(m % i == 0 && n % i == 0 ){
-//             ucln = i;
-//             break;
-//          }
+    for(let i = 1; i <= m && i <= n; i++){
+        if(m % i == 0 && n % i == 0 ){
+            ucln = i;
+            break;
+         }
         
-// }
-// console.log(ucln);
+}
+console.log(ucln);
